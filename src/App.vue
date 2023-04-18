@@ -6,6 +6,8 @@
     <basic-button></basic-button>
     <h3>禁用按钮</h3>
     <disable-button></disable-button>
+    <h3>加载按钮</h3>
+    <loading-button></loading-button>
   </div>
 </template>
 
@@ -13,10 +15,12 @@
 import icon from "@/components/icon";
 import BasicButton from "@/components/basicButton";
 import DisableButton from "@/components/disableButton";
+import LoadingButton from "@/components/loadingButton";
 
 export default {
   name: 'app',
   components: {
+    LoadingButton,
     DisableButton,
     BasicButton,
     icon
