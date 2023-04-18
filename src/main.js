@@ -41,7 +41,7 @@ import {
     // RadioButton,
     // Input,
     // Textarea,
-    // Button,
+     Button,
     // Modal,
     // Tooltip,
     // Form,
@@ -86,7 +86,7 @@ Vue.use(Icon)
     // .use(RadioButton)
     // .use(Input)
     // .use(Textarea)
-    // .use(Button)
+     .use(Button)
     // .use(Modal)
     // .use(Tooltip)
     // .use(Form)
