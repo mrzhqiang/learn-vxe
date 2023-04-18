@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <h3>Icon</h3>
+    <h3>图标</h3>
     <icon></icon>
-    <h3>Basic Button</h3>
+    <h3>基础按钮</h3>
     <basic-button></basic-button>
+    <h3>禁用按钮</h3>
+    <disable-button></disable-button>
   </div>
 </template>
 
 <script>
 import icon from "@/components/icon";
 import BasicButton from "@/components/basicButton";
+import DisableButton from "@/components/disableButton";
 
 export default {
   name: 'app',
   components: {
+    DisableButton,
     BasicButton,
     icon
   }
