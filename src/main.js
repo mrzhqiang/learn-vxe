@@ -36,9 +36,9 @@ import {
     // Pager,
     // Checkbox,
     // CheckboxGroup,
-    // Radio,
-    // RadioGroup,
-    // RadioButton,
+     Radio,
+     RadioGroup,
+     RadioButton,
     // Input,
     // Textarea,
      Button,
@@ -81,9 +81,9 @@ Vue.use(Icon)
     // .use(Pager)
     // .use(Checkbox)
     // .use(CheckboxGroup)
-    // .use(Radio)
-    // .use(RadioGroup)
-    // .use(RadioButton)
+     .use(Radio)
+     .use(RadioGroup)
+     .use(RadioButton)
     // .use(Input)
     // .use(Textarea)
      .use(Button)
