@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
+import router from './router';
 
 // 直接加载
 /*import VXETable from 'vxe-table';
@@ -10,8 +11,6 @@ import 'vxe-table/lib/style.css';*/
 // Vue.prototype.$XPrint = VXETable.print
 // Vue.prototype.$XSaveFile = VXETable.saveFile
 // Vue.prototype.$XReadFile = VXETable.readFile
-
-Vue.config.productionTip = false;
 
 // 按需加载
 import XEUtils from 'xe-utils';
@@ -58,6 +57,8 @@ import {
     Table
 } from 'vxe-table';
 import zhCN from 'vxe-table/lib/locale/lang/zh-CN';
+
+Vue.config.productionTip = false;
 
 // 按需加载的方式默认是不带国际化的，自定义国际化需要自行解析占位符 '{0}'，例如：
 VXETable.setup({
@@ -395,5 +396,6 @@ VXETable.setup({
 });
 
 new Vue({
-    render: h => h(App),
+    router,
+    render: h => h(App)
 }).$mount('#app');
