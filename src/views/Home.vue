@@ -6,10 +6,10 @@
     <div style="float: left; width: 10%">
       <ul id="menu">
         <li>
-          <router-link to="/button">Button</router-link>
+          <router-link :to="{name: 'button'}">Button</router-link>
         </li>
         <li>
-          <router-link to="/radio">Radio</router-link>
+          <router-link :to="{name: 'radio'}">Radio</router-link>
         </li>
       </ul>
     </div>

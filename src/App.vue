@@ -3,7 +3,7 @@
     <div id="nav">
       <vxe-button status="primary" icon="vxe-icon-home" @click="goHome()">主页</vxe-button>
       |
-      <router-link to="/about">关于</router-link>
+      <router-link :to="{name: 'about'}">关于</router-link>
     </div>
     <router-view/>
   </div>
