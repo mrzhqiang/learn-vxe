@@ -18,8 +18,13 @@ let routes = [
       {
         path: '/radio',
         name: 'radio',
-        component: () => import('./views/Radio'),
+        component: () => import('./views/Radio.vue'),
       },
+      {
+        path: '/checkbox',
+        name: 'checkbox',
+        component: () => import('./views/CheckBox.vue'),
+      }
     ]
   },
   {

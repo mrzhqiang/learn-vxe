@@ -33,8 +33,8 @@ import {
     // Grid,
     // Toolbar,
     // Pager,
-    // Checkbox,
-    // CheckboxGroup,
+     Checkbox,
+     CheckboxGroup,
      Radio,
      RadioGroup,
      RadioButton,
@@ -80,8 +80,8 @@ Vue.use(Icon)
     // .use(Grid)
     // .use(Toolbar)
     // .use(Pager)
-    // .use(Checkbox)
-    // .use(CheckboxGroup)
+     .use(Checkbox)
+     .use(CheckboxGroup)
      .use(Radio)
      .use(RadioGroup)
      .use(RadioButton)

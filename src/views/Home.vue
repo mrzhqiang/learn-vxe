@@ -11,6 +11,9 @@
         <li>
           <router-link :to="{name: 'radio'}">Radio</router-link>
         </li>
+        <li>
+          <router-link :to="{name: 'checkbox'}">CheckBox</router-link>
+        </li>
       </ul>
     </div>
     <div style="float: left; width: 90%;">
