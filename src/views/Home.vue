@@ -2,6 +2,7 @@
   <div class="home">
     <h3>图标</h3>
     <icon></icon>
+    <span>------------------------------</span>
     <div style="float: left; width: 10%">
       <ul id="menu">
         <li>

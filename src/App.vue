@@ -1,12 +1,23 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <vxe-button status="primary" icon="vxe-icon-home" @click="goHome()">主页</vxe-button>
+      |
+      <router-link to="/about">关于</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    goHome() {
+      this.$router.push('/');
+    },
+  }
+}
+</script>
 
 <style>
 #app {
